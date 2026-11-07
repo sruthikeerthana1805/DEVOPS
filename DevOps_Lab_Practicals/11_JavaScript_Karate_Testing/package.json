@@ -1,0 +1,7 @@
+{
+  "name": "javascript-karate-demo",
+  "version": "1.0.0",
+  "description": "Simple JavaScript program for Karate testing",
+  "scripts": { "start": "node app.js" },
+  "dependencies": { "express": "^4.21.2" }
+}

@@ -1,0 +1,1 @@
+Git tracks changes in files and records them as commits.\n

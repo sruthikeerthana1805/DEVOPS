@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Event Registration</title>
+  <style>
+    body { font-family: Arial, sans-serif; background: #eef2ff; margin: 0; padding: 30px; }
+    .card { max-width: 460px; margin: 30px auto; padding: 25px; background: white; border-radius: 12px; }
+    form { display: flex; flex-direction: column; gap: 10px; }
+    input, select, textarea, button { padding: 10px; font-size: 16px; }
+    button { background: #2563eb; color: white; border: 0; border-radius: 6px; cursor: pointer; }
+    #message { margin-top: 12px; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h2>Register for the Innovation Event</h2>
+    <form id="registrationForm">
+      <label>Full Name</label><input name="name" required>
+      <label>Email</label><input name="email" type="email" required>
+      <label>Phone Number</label><input name="phone" type="tel" required>
+      <label>Ticket Type</label>
+      <select name="ticketType"><option>Standard</option><option>VIP</option></select>
+      <label>Notes</label><textarea name="notes"></textarea>
+      <button type="submit">Register Now</button>
+    </form>
+    <p id="message"></p>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
